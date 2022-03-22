@@ -2,7 +2,7 @@ node()
 {
     stage('Continuous Download') 
 	{
-    git  
+    git 'https://github.com/venkat9822891/multi-branch.git'
 	}
     stage('Continuous Build') 
 	{
